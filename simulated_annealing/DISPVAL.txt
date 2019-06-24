@@ -1,0 +1,9 @@
+'ProgramMode:RUN
+Locate 7,1,RndFix(T,3)
+Locate 4,3,X
+Locate 4,4,Y
+If Getkey=31
+Then 
+Locate 4,6,R
+Locate 4,7,O
+IfEnd

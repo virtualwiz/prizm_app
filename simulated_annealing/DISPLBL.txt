@@ -1,0 +1,9 @@
+'ProgramMode:RUN
+Locate 1,1,"Temp="
+Locate 17,1,"[+//-]"
+Locate 1,2,"Realtime:"
+Locate 1,5,"Accepted:"
+Locate 1,3,"X="
+Locate 1,4,"Y="
+Locate 1,6,"X="
+Locate 1,7,"Y="

@@ -1,0 +1,2 @@
+'ProgramMode:RUN
+(X-3)^<2>+3->Y

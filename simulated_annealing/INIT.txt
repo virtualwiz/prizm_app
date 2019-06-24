@@ -1,0 +1,4 @@
+'ProgramMode:RUN
+6->X
+900->T
+0.1->W

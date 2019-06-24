@@ -1,0 +1,16 @@
+'ProgramMode:RUN
+Prog "INIT"
+X->R
+Prog "DISPLBL"
+Do
+Prog "COOL"
+R->X
+Prog "TGTF"
+Y->O
+X+W*2*(Ran#-.5)->X
+Prog "TGTF"
+If e^((-)(Y-O)/T)>=Ran#
+Then X->R
+IfEnd
+Prog "DISPVAL"
+LpWhile 1
