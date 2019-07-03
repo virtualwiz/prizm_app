@@ -1,0 +1,16 @@
+'ProgramMode:RUN
+Lbl Z
+Menu "Conversion mode","Amplitude _->_ dB",A,"Power _->_ dB",B,"dB _->_ Amplitude",C,"dB _->_ Power",D
+
+Lbl A
+"Amp_->_dB"?->X
+20*log XDispsGoto Z
+Lbl B
+"Pwr_->_dB"?->X
+10*log XDispsGoto Z
+Lbl C
+"dB_->_Amp"?->X
+10^(X/20)DispsGoto Z
+Lbl D
+"dB_->_Pwr"?->X
+10^(X/10)DispsGoto Z
